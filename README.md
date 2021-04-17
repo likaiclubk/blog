@@ -17,3 +17,10 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### v3.x import element-ui
+   - command: npm install element-plus --save
+   - in main.js:
+        + import ElementPlus from 'element-plus'
+        + import 'element-plus/lib/theme-chalk/index.css'
+        + createApp(App).user(ElementPlus)
